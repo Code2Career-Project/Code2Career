@@ -1,0 +1,34 @@
+{
+  "name": "code2career",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "verify": "node scripts/verify-logic.mjs",
+    "verify:phase3": "node scripts/verify-phase3.mjs",
+    "verify:refinements": "node scripts/verify-refinements.mjs",
+    "verify:linkedin": "node scripts/verify-linkedin.mjs",
+    "verify:phase4": "node scripts/verify-phase4.mjs",
+    "verify:linkedin-studio": "node scripts/verify-linkedin-studio.mjs",
+    "verify:linkedin-events": "node scripts/verify-linkedin-events.mjs",
+    "verify:linkedin-analytics": "node scripts/verify-linkedin-analytics.mjs",
+    "verify:job-discovery": "node scripts/verify-job-discovery.mjs",
+    "verify:cv-templates": "node scripts/verify-cv-templates.mjs"
+  },
+  "dependencies": {
+    "framer-motion": "^12.23.24",
+    "lucide-react": "^0.552.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-router-dom": "^7.9.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.16",
+    "@vitejs/plugin-react": "^5.1.0",
+    "tailwindcss": "^4.1.16",
+    "vite": "^7.1.12"
+  }
+}
